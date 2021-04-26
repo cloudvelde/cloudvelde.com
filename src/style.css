@@ -1,0 +1,137 @@
+@keyframes fadeinall {
+    0% {
+        opacity: 1; }
+    97% {
+        opacity: 0; }
+    98% {
+        opacity: 0;
+        -webkit-transform: translateY(0);
+        transform: translateY(0); }
+    99% {
+        opacity: 0;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%); }
+    100% {
+        opacity: 0;
+        z-index: -1; }
+}
+
+#loader {
+    opacity: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    background-color: #fff;
+    z-index: 999;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation: fadeinall 1s normal both;
+    animation: fadeinall 1s normal both;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s; }
+
+
+.app {
+    font-family: Ubuntu;
+}
+
+.header {
+    text-align: left;
+    background-color: #F2F2F2;
+}
+
+.headerLink {
+    text-decoration: none;
+    font-size: 1.3vw;
+    padding-left: 2vw;
+}
+
+.titleContainer {
+    text-align: center;
+}
+
+.title {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width: 55vw;
+}
+
+.titleSmall {
+    width: 13vw;
+}
+
+.slogan {
+    font-size: 3em;
+}
+
+.footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    font-size: 2vw;
+
+    background-color: #F2F2F2;
+}
+
+.cookieNotice {
+    background-color: #212529;
+}
+
+.footerText {
+    font-size: 1vw;
+}
+
+.cookieNoticeText {
+    color: white;
+    margin-bottom: 3px;
+}
+
+.cookieNoticeButton {
+    margin-top: .7em;
+    float: left;
+}
+
+.privacyPolicyContainer {
+    padding: 2em;
+    text-align: left;
+
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.extraPaddingBottom {
+    padding-bottom: 5em;
+}
+
+.signUpWithField {
+    margin-top: 2vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.signUpWithButton {
+    width: 100%;
+    height: 70%;
+    max-height: 20vw;
+    max-width: 20em;
+    margin-bottom: 2px;
+}
+
+.signUpWithButtonText {
+    font-size: 1.4em;
+}
+
+.signUpWithImage {
+}
+
+.signUpWithContainer {
+}
